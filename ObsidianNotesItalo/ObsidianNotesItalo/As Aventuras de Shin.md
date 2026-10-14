@@ -1,0 +1,2 @@
+ objetivo: viagem no tempo e investigação e salvar pessoas de soldados e enfrentar boss
+ coisas que preciso colocar: portais para diferentes epocas, barracas de venda para upar o personagem ,armas brancas ,magias , barra de vida,magia,escudo ,escolher vilões
