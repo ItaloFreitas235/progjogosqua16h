@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://ckpe2uneaokk8"]
+
+[ext_resource type="Texture2D" uid="uid://dvpc6r66iu5kj" path="res://icon.svg" id="1_g2els"]
+[ext_resource type="Script" uid="uid://dxkvhxr27k7n6" path="res://scripts/Camera.cs" id="2_qhqgy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u8vuu"]
+size = Vector2(130, 124)
+
+[sub_resource type="CSharpScript" id="CSharpScript_dqkch"]
+script/source = "using Godot;
+using System;
+
+public partial class Collision : CollisionShape2D
+{
+	// Called when the node enters the scene tree for the first time.
+	public override void _Ready()
+	{
+	}
+
+	// Called every frame. 'delta' is the elapsed time since the previous frame.
+	public override void _Process(double delta)
+	{
+	}
+}
+"
+
+[node name="player" type="CharacterBody2D" unique_id=1476738447]
+
+[node name="sprite" type="Sprite2D" parent="." unique_id=941657543]
+position = Vector2(70, 64)
+texture = ExtResource("1_g2els")
+
+[node name="collision" type="CollisionShape2D" parent="." unique_id=1349780887]
+position = Vector2(71, 64)
+shape = SubResource("RectangleShape2D_u8vuu")
+script = SubResource("CSharpScript_dqkch")
+
+[node name="camera" type="Camera2D" parent="." unique_id=564180824]
+script = ExtResource("2_qhqgy")

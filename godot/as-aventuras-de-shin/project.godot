@@ -11,7 +11,6 @@ config_version=5
 [application]
 
 config/name="as_aventuras_de_shin"
-run/main_scene="uid://dnv6d3lanowv0"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
