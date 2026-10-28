@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projeto/meu_jogo.md",
+                "file": "ProgJogosQua16h/Git-Github.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "meu_jogo"
+              "title": "Git-Github"
             }
           }
         ]
@@ -188,8 +188,8 @@
   "active": "30092fca32605330",
   "lastOpenFiles": [
     "As Aventuras de Shin.md",
-    "projeto/meu_jogo.md",
     "ProgJogosQua16h/Git-Github.md",
+    "projeto/meu_jogo.md",
     "projeto",
     "ProgJogosQua16h",
     "Bem-vindo.md"
